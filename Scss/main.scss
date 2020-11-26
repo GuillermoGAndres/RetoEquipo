@@ -1,0 +1,218 @@
+.navbar-brand img {
+    width: 20%;
+
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background: #000 !important;
+}
+
+.container-fluid {
+    background-color: #ff4632;
+}
+
+.boton {
+    border-radius: 300px !important;
+    width: 51% !important;
+    background: #000 !important;
+}
+
+.takeover .lie-hero {
+    color: #1ED760;
+    background-color: #2D46B9;
+    background-repeat: no-repeat;
+    background-image: url(https://www.scdn.co/i/projectRamses/LiE_circles.svg);
+    background-size: auto 170%;
+    background-position: center center;
+}
+.takeover .takeover-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    min-height: 464px;
+}
+.takeover .lie-hero .btn-green {
+    background-color: #1ED760 !important;
+    color: #2D46B9 !important;
+}
+.takeover .takeover-hero h2 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.takeover .takeover-hero h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.takeover .takeover-hero h4 {
+    font-size: 64px;
+    line-height: 64px;
+}
+.btn, .navbar .navbar-nav .navbar-btn {
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color: #222326;
+    background-color: #FFF;
+}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+footer {
+    background-color: #000000;
+    color: #919496;
+  
+    a {
+      text-decoration: none !important;
+      color: #919496;
+      font-size: 12px;
+  
+      &:hover {
+        color: #1DB954 !important;
+      }
+    }
+  
+    .enlaces_social {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+  
+      li {
+        border-radius: 50%;
+        background-color: #222326;
+        height: 50px;
+        width: 50px;
+        position: relative;
+  
+        img {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+      }
+  
+      li + li {
+        margin-left: 20px;
+      }
+  
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+   
+    
+    .linkbottom {
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+  
+        li  {
+          @media screen and (min-width: 372px) and (max-width: 768px) { 
+            margin-right: 18px;
+          }
+          margin-right: 24px;
+        }
+  
+        @media screen and (min-width: 372px) and (max-width: 768px) { 
+          a {
+            font-size: 10px !important;
+          }
+        }
+      }
+  
+      &__icons {
+        img {
+          height: 18px;
+        }
+  
+        .copyR{
+          font-size: 12px;
+        }
+      }
+    }
+  
+    .enlaces-medion {
+      ul {
+        list-style: none !important;
+        li {
+          margin-bottom: 20px;
+          font-size: 14px;
+        }
+      }
+      section {
+        margin-left: 80px;
+  
+        @media screen and (min-width: 372px) and (max-width: 768px) { 
+          margin-left: 20px;
+        }
+  
+        p {
+          color: #919496;
+          font-size: 12px;
+          font-weight: 900;
+          line-height: 1.4;
+          letter-spacing: .08em;
+          text-transform: uppercase;
+        }
+      }
+    }
+  
+    .spotify {
+      max-width: 100%;
+      @media screen and (min-width: 372px) and (max-width: 991px) { 
+        max-width: 30%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media(max-width: 425px) {
+
+  }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: flex-end!important;
+    }
+
+ }
